@@ -1,0 +1,5 @@
+###
+GET https://strapi-server-k4d2s.ondigitalocean.app/api/luccy-products/?populate=*
+
+###
+GET https://strapi-server-k4d2s.ondigitalocean.app/api/luccy-home/?populate=*
