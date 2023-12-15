@@ -41,9 +41,9 @@ export const Header = () => {
                 </div>
 
                 <div className={menuIcon? 
-                "md:hidden absolute top-[100px] right-0 left-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#f1f1f1] ease-in duration-300" 
+                "md:hidden absolute top-[0px] right-0 left-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#f1f1f1] ease-in duration-300" 
                 : 
-                "md:hidden absolute top-[100px] right-0 left-[-100%] flex justify-center items-center w-full h-screen bg-[#f1f1f1] ease-in duration-300 text-center"}>
+                "md:hidden absolute right-0 left-[-100%] flex justify-center items-center w-full h-screen bg-[#f1f1f1] ease-in duration-300 text-center"}>
 
                     <div className='h-full flex justify-center items-center'>
                         <ul className='font-bold text-2xl space-y-6 mb-40'>
